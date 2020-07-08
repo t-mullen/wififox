@@ -1,0 +1,31 @@
+{
+  "name": "wififox",
+  "version": "1.0.0",
+  "description": "A simple tool for bypassing WiFi gatekeepers.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -mwl",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cidr-range": "^2.0.0",
+    "default-gateway": "^6.0.1",
+    "node-wifi": "^2.0.12",
+    "request": "^2.88.2",
+    "spoof": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "build": {
+    "appId": "com.wififox.app",
+    "productName": "WiFiFox",
+    "mac": {
+      "identity": null
+    }
+  }
+}
