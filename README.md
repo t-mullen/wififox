@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 # WiFiFox
 WiFiFox is a tool for bypassing captive portals in wireless networks.
 
