@@ -1,6 +1,17 @@
 # WiFiFox
 WiFiFox is a menubar tool for bypassing captive portals in wireless networks. It also includes a tiny network scanner.
 
+Please consider [sponsoring this project](https://github.com/sponsors/t-mullen) if this is useful to you.
+
+## Installation
+```
+npm install -g wififox
+```
+```
+sudo wififox
+```
+
+
 ## How it Works
 WiFiFox uses MAC spoofing to bypass the portal. It automates the following steps:
 
