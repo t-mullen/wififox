@@ -20,6 +20,12 @@ npm install -g wififox
 sudo wififox
 ```
 
+## Usage
+1) Connect to any open network (WEP, WPA and WPA2 are not supported).
+2) Click "Bypass" in WiFiFox.
+3) Wait for WiFiFox to bypass the captive portal.
+4) Browse the web. You can just ignore any captive popups.
+
 
 ## How it Works
 WiFiFox uses MAC spoofing to bypass the portal. It automates the following steps:
