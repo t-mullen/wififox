@@ -11,7 +11,7 @@
     "postinstall": "electron-builder install-app-deps"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPLv3",
   "dependencies": {
     "cidr-range": "^2.0.0",
     "default-gateway": "^6.0.1",
