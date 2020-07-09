@@ -123,3 +123,14 @@ button.trial {
   color: #111;
   font-size: 18px;
 }
+
+.code {
+  display: inline-block;
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  width: 170px;
+  margin: 0;
+  margin-bottom: 10px;
+}

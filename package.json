@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple tool for bypassing WiFi gatekeepers.",
   "main": "main.js",
+  "bin": "main.js",
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
@@ -26,6 +27,9 @@
     "productName": "WiFiFox",
     "mac": {
       "identity": null
+    },
+    "linux": {
+      "category": "Utility"
     }
   }
 }
