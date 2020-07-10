@@ -3,14 +3,10 @@
 const path = require('path')
 const { app, Menu, Tray, dialog } = require('electron')
 const wififox = require('./lib/wififox')
-const child_process = require('child_process')
 const isRoot = (process.getuid && process.getuid() === 0)
 
 if (!isRoot) {
-  const scriptPath = path.join(__dirname, 'main.js')
-  const cmd = `${process.execPath} ${scriptPath}`
-  const prompt = `/usr/bin/osascript -e 'do shell script "bash -c \\\"${cmd}\\\"" with administrator privileges'`
-  child_process.exec(prompt, { detatched: true })
+  console.log('WiFiFox must run as root.')
   process.exit(0)
 } else {
   let tray = null
