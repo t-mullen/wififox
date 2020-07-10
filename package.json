@@ -5,7 +5,7 @@
   "main": "main.js",
   "bin": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron --no-sandbox .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder -mwl",
     "postinstall": "electron-builder install-app-deps"
