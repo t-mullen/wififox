@@ -15,6 +15,7 @@
   "dependencies": {
     "cidr-range": "^2.0.0",
     "default-gateway": "^6.0.1",
+    "electron-builder": "^22.7.0",
     "node-wifi": "^2.0.12",
     "request": "^2.88.2",
     "spoof": "^2.0.1"
