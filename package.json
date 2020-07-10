@@ -18,9 +18,7 @@
     "electron-builder": "^22.7.0",
     "node-wifi": "^2.0.12",
     "request": "^2.88.2",
-    "spoof": "^2.0.1"
-  },
-  "devDependencies": {
+    "spoof": "^2.0.1",
     "electron": "^9.0.5"
   },
   "build": {
